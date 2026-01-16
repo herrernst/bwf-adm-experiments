@@ -5,7 +5,13 @@ items:
       channels: [1]
       blocks:
           - rtime: 0.0
-            duration: 2.0
+            duration: 1.0
+            position:
+                azimuth: 0.0
+                elevation: 0.0
+            gain: 1.0
+          - rtime: 1.0
+            duration: 1.0
             position:
                 azimuth: 0.0
                 elevation: 0.0
@@ -47,8 +53,14 @@ items:
                 elevation: 0.0
             gain: 1.0
           - rtime: 8.0
-            duration: 2.0
+            duration: 1.0
             position:
                 azimuth: -45.0
+                elevation: 0.0
+            gain: 1.0
+          - rtime: 9.0
+            duration: 1.0
+            position:
+                azimuth: 0.0
                 elevation: 0.0
             gain: 1.0
