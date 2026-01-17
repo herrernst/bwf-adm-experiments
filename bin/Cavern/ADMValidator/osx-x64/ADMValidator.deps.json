@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0/osx-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/osx-x64": {
+      "ADMValidator/1.0.0": {
+        "dependencies": {
+          "Cavern.Format": "2.1.0"
+        },
+        "runtime": {
+          "ADMValidator.dll": {}
+        }
+      },
+      "Cavern/2.1.0": {
+        "runtime": {
+          "Cavern.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Cavern.Format/2.1.0": {
+        "dependencies": {
+          "Cavern": "2.1.0"
+        },
+        "runtime": {
+          "Cavern.Format.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ADMValidator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cavern/2.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cavern.Format/2.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
